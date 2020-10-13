@@ -1,0 +1,3 @@
+env_name: Foraging-12x12-2p-1f-coop-v0
+num_env_steps: 50000000.0
+time_limit: 25

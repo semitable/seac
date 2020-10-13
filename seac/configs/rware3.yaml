@@ -1,0 +1,3 @@
+env_name: rware-tiny-2ag-hard-v1
+num_env_steps: 120000000.0
+time_limit: 500

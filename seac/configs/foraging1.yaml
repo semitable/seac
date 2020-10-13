@@ -1,0 +1,3 @@
+env_name: Foraging-10x10-3p-3f-v0
+num_env_steps: 50000000.0
+time_limit: 25
