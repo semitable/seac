@@ -28,13 +28,13 @@ python train.py with <env config>
 ```
 
 Valid environment configs are: 
-    - `env_name=Foraging-15x15-3p-4f-v0 time_limit=25`
-    - ...
-    - `env_name=Foraging-12x12-2p-1f-v0 time_limit=25` or any other foraging environment size/configuration.
-    - `env_name=rware-tiny-2ag-v1 time_limit=500` 
-    - `env_name=rware-tiny-4ag-v1 time_limit=500` 
-    - ...
-    - `env_name=rware-tiny-2ag-hard-v1 time_limit=500` or any other rware environment size/configuration.
+- `env_name=Foraging-15x15-3p-4f-v0 time_limit=25`
+- ...
+- `env_name=Foraging-12x12-2p-1f-v0 time_limit=25` or any other foraging environment size/configuration.
+- `env_name=rware-tiny-2ag-v1 time_limit=500` 
+- `env_name=rware-tiny-4ag-v1 time_limit=500` 
+- ...
+- `env_name=rware-tiny-2ag-hard-v1 time_limit=500` or any other rware environment size/configuration.
 ## Training - SEQL
 
 To train the agents in the paper, navigate to the seac directory:
@@ -49,12 +49,12 @@ python train.py with <env config>
 ```
 
 Valid environment configs are: 
-    - `python lbf_train.py --env Foraging-12x12-2p-1f-v0` 
-    - ...
-    - `python lbf_train.py --env Foraging-15x15-3p-4f-v0` or any other foraging environment size/configuration.
-    - `python rware_train.py --env "rware-tiny-2ag-v1"`
-    - ...
-    - `python rware_train.py --env "rware-tiny-4ag-v1"`or any other rware environment size/configuration.
+- `python lbf_train.py --env Foraging-12x12-2p-1f-v0` 
+- ...
+- `python lbf_train.py --env Foraging-15x15-3p-4f-v0` or any other foraging environment size/configuration.
+- `python rware_train.py --env "rware-tiny-2ag-v1"`
+- ...
+- `python rware_train.py --env "rware-tiny-4ag-v1"`or any other rware environment size/configuration.
 
 ## Evaluation/Visualization - SEAC
 
