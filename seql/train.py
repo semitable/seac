@@ -31,7 +31,7 @@ class Train:
         Parse default arguments for MARL training script
         """
         # algorithm
-        self.parser.add_argument("--hidden_dim", default=64, type=int)
+        self.parser.add_argument("--hidden_dim", default=128, type=int)
         self.parser.add_argument("--shared_experience", action="store_true", default=False)
         self.parser.add_argument("--shared_lambda", default=1.0, type=float)
         self.parser.add_argument(
@@ -55,7 +55,7 @@ class Train:
             "--tau", type=float, default=0.05, help="tau as stepsize for target network updates"
         )
         self.parser.add_argument(
-            "--lr", type=float, default=0.01, help="learning rate for Adam optimizer"
+            "--lr", type=float, default=0.0001, help="learning rate for Adam optimizer" #use 5e-5 for RWARE
         )
         self.parser.add_argument(
             "--seed", type=int, default=None, help="random seed used throughout training"
@@ -70,7 +70,7 @@ class Train:
         self.parser.add_argument(
             "--batch_size",
             type=int,
-            default=256,
+            default=128,
             help="number of episodes to optimize at the same time",
         )
         self.parser.add_argument(
