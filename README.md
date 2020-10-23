@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 For the experiments in LBF and RWARE, please install from:
 - [Level Based Foraging Official Repo](https://github.com/uoe-agents/lb-foraging)
-- [Multi-Robot Warehouse Official Repo](https://github.com/uoe-agents/lb-foraging)
+- [Multi-Robot Warehouse Official Repo](https://github.com/uoe-agents/robotic-warehouse)
 
 
 ## Training - SEAC
