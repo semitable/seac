@@ -58,3 +58,13 @@ To load and render the pretrained models in SEAC, run in the seac directory
 ```eval
 python evaluate.py
 ```
+
+## Citation
+```
+@inproceedings{christianos2020shared,
+  title={Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning},
+  author={Christianos, Filippos and Sch{\"a}fer, Lukas and Albrecht, Stefano V},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year={2020}
+}
+```
