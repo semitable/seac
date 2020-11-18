@@ -37,13 +37,7 @@ To train the agents in the paper, navigate to the seac directory:
 cd seql
 ```
 
-And run:
-
-```train
-python train.py with <env config>
-```
-
-Valid environment configs are: 
+And run the training script. Possible options are: 
 - `python lbf_train.py --env Foraging-12x12-2p-1f-v0` 
 - ...
 - `python lbf_train.py --env Foraging-15x15-3p-4f-v0` or any other foraging environment size/configuration.
