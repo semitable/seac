@@ -6,7 +6,7 @@ import gym
 
 import robotic_warehouse
 
-from gymma.wrappers import RecordEpisodeStatistics
+from wrappers import RecordEpisodeStatistics
 
 from train import Train
 
